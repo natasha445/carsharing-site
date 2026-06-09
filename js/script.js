@@ -46,3 +46,10 @@ document.addEventListener("DOMContentLoaded", () => {
             smoothScrollTo("contact-section");
         });
     });
+     document.getElementById("btn-send").addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});
