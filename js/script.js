@@ -28,3 +28,15 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
         smoothScrollTo("how-it-works");
     });
+    document.getElementById("link-contacts").addEventListener("click", (e) => {
+        e.preventDefault();
+        smoothScrollTo("contact-section");
+    });
+
+    document.getElementById("btn-start-rent").addEventListener("click", () => {
+        smoothScrollTo("available-cars");
+    });
+
+    document.getElementById("btn-more").addEventListener("click", () => {
+        smoothScrollTo("why-choose-us");
+    });
