@@ -40,3 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("btn-more").addEventListener("click", () => {
         smoothScrollTo("why-choose-us");
     });
+     const rentButtons = document.querySelectorAll(".btn-rent");
+    rentButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            smoothScrollTo("contact-section");
+        });
+    });
