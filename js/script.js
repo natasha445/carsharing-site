@@ -13,3 +13,18 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
     };
+
+ document.getElementById("link-info").addEventListener("click", (e) => {
+        e.preventDefault();
+        smoothScrollTo("why-choose-us");
+    });
+
+    document.getElementById("link-rent").addEventListener("click", (e) => {
+        e.preventDefault();
+        smoothScrollTo("available-cars");
+    });
+
+    document.getElementById("link-how").addEventListener("click", (e) => {
+        e.preventDefault();
+        smoothScrollTo("how-it-works");
+    });
